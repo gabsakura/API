@@ -5,7 +5,7 @@ from openai import OpenAI
 
 df = pd.read_csv('C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\API-main\\projeto API\\abc.csv')
 user_ids = df['UserID'].tolist()
-openai_api_key = 'sk-proj-oAUDw1bzg33tuU5pRB09T3BlbkFJxfEiV1eIlVW6fCSzNYPT'
+openai_api_key = 'coloque sua chave do OPENAI'
 url = f'https://digitalinnovationone.github.io/santander-dev-week-2023-api/mocks/find_one.json?id={id}'
 client = OpenAI(api_key=openai_api_key)
 
